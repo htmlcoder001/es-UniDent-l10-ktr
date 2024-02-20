@@ -24,8 +24,7 @@ b {
 }
 
 .block1 {
-   position: relative;
-   padding: 79px 0 127px
+   position: relative
 }
 
 .block1 .girl-m {
@@ -33,15 +32,15 @@ b {
 }
 
 .block1 .wrapper {
-   position: relative
+   position: relative;
+   padding: 79px 0 127px
 }
 
 .block1 .wrapper .girl {
    position: absolute;
    right: -97px;
    left: auto;
-   bottom: auto;
-   top: -79px
+   bottom: 0;
 }
 
 .block1 .content {
@@ -54,7 +53,7 @@ b {
 .block1 .content .stock-quantyti {
    position: absolute;
    right: -92px;
-   top: 18%;
+   top: 53%;
    background: url(../images/stock_sign.png) center no-repeat;
    background-size: cover;
    width: 144px;
@@ -839,9 +838,8 @@ b {
 
 @media all and (max-width:990px) {
    .block1 .wrapper .girl {
-      right: -353px;
-      bottom: auto;
-      top: 0
+      right: -253px;
+      bottom: 0;
    }
 
    .block1 {
@@ -995,6 +993,15 @@ b {
    .block1 h1 {
       font-size: 33px
    }
+   
+   .block1 h1 br {
+      display: none;
+   }
+   
+   .block1 .wrapper {
+      position: relative;
+      padding: 0;
+   }
 
    .block1 .left img {
       width: 177px;
@@ -1015,7 +1022,7 @@ b {
       display: block;
       position: absolute;
       right: -34px;
-      top: 13%
+      top: 23%
    }
 
    .block1 .left .desctop {

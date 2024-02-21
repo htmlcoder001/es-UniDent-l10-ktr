@@ -53,7 +53,7 @@ b {
 .block1 .content .stock-quantyti {
    position: absolute;
    right: -92px;
-   top: 53%;
+   top: 23%;
    background: url(../images/stock_sign.png) center no-repeat;
    background-size: cover;
    width: 144px;
@@ -841,9 +841,9 @@ b {
       right: -253px;
       bottom: 0;
    }
-
-   .block1 {
-      padding: 0 0 43px
+   
+   .block1 .content {
+      padding-left: 24px;
    }
 
    .block1 h1 {
@@ -856,6 +856,10 @@ b {
 
    .block1 .left .text {
       margin: 0
+   }
+   
+   .block1 h1 br {
+      display: none;
    }
 
    .block1 .right {
@@ -1242,6 +1246,15 @@ b {
 
    .block8 .desctop {
       display: none
+   }
+}
+
+@media (max-width:375px) {
+
+   
+   .block1 .content {
+      padding-left: 12px;
+      padding-right: 12px;
    }
 }
 

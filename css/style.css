@@ -989,7 +989,7 @@ b {
    .block1 .wrapper .girl {
       display: none
    }
-
+   
    .block1 h1 {
       font-size: 33px
    }
@@ -999,7 +999,6 @@ b {
    }
    
    .block1 .wrapper {
-      position: relative;
       padding: 0;
    }
 
